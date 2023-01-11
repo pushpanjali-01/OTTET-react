@@ -1,0 +1,106 @@
+.keyboard {
+  /* border: 2px solid white; */
+  width: 215px;
+  overflow: hidden;
+  display: inline-block;
+  left: 60px;
+  position: fixed;
+}
+
+.keyboarddata {
+  display: inline-flex;
+  padding: 3px;
+  width: 35px;
+}
+
+.keybtn {
+  height: 100%;
+  width: 100%;
+  background-color: #212121;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  /* padding: 15px 32px; */
+  text-align: center;
+  /* text-decoration: none; */
+  /* display: inline-block; */
+  font-size: 16px;
+}
+
+.keyboarddata:nth-last-child(1),
+.keyboarddata:nth-last-child(2),
+.keyboarddata:nth-last-child(3) {
+  /* background: red; */
+  width: 70px;
+}
+
+@media (min-width:1280px) and (min-height:720px) {
+  .Menu {
+    height: 50px;
+  }
+  .keyboard {
+    width: 230px;
+  }
+  .keybtn {
+    height: 30px;
+    width: 70px;
+  }
+
+
+
+}
+
+@media (min-width:1920px) and (min-height:1080px) {
+  .keyboard {
+    width: 264px;
+    padding: 26px;
+    height: 349px;
+}
+.bg-black {
+ 
+  margin-left:-100px 
+}
+  .keybtn {
+    height: 40px;
+    width: 70px;
+  }
+  img {
+    height: 380px;
+    width: 200px;
+  }
+  .col-md-3 {
+    flex: 0 0 auto;
+    width: 300px;
+    height: 420px;
+}
+
+  .Menu {
+    height: 70px;
+    font-size: 40px;
+  }
+
+  .Menu a {
+    font-size: 30px;
+  }
+  .mt-5{
+    margin-left: -150px;
+    padding-left:30px ;
+  }
+ 
+  .mt-5{
+    margin-left:30px ;
+  }
+  .card-body{
+    height: 460px;
+    width: auto;
+    margin-left:0px ; 
+  }
+ 
+  .row{
+    margin-left: 20px;
+  } 
+}
+@media (min-width:1920px) and (min-height:1080px) {
+
+
+}
